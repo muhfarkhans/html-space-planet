@@ -67,6 +67,10 @@ p svg {
     animation: rotation 100s infinite linear;
 }
 
+.m-auto {
+    margin: auto;
+}
+
 @keyframes rotation {
 from {
     transform: rotate(0deg);
