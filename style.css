@@ -76,6 +76,15 @@ to {
 }
 }
 
+.header-title {
+    color: white;
+    font-weight: bold;
+}
+
+.header-text {
+    color: whitesmoke;
+}
+
 .header {
     display: flex;
     height: 100vh;
