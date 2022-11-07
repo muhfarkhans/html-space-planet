@@ -71,6 +71,10 @@ p svg {
     margin: auto;
 }
 
+.text-white {
+    color: white;
+}
+
 @keyframes rotation {
 from {
     transform: rotate(0deg);
@@ -122,6 +126,11 @@ to {
     margin-bottom: 20px;
 }
 
+.punchline-text {
+    color: #010119; 
+    text-align: center;
+}
+
 .planet-container {
     padding-left: 20px;
     padding-right: 20px;
@@ -165,6 +174,25 @@ to {
     padding: 10px;
     background-color: white;
     color: #010119;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-info-text {
+    text-align: center;
+}
+
+.card-info-icon {
+    width: 1.5em;
+    vertical-align: middle;
 }
 
 .img-size-planet {
